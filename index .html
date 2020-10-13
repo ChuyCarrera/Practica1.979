@@ -1,0 +1,92 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="jEstilos.css">
+    
+    <title>PRACTICA 4</title>
+</head>
+<body>
+    
+    <center><h1>FORMULARIO</h1></center> 
+    <hr>
+    <section style="color: black;" class="form-register">
+    <form action="#">
+        <fieldset>
+            <calibri class="Titulo">DATOS DEL SOLICITANTE <DEl></DEl> </calibri> 
+            <div>
+                <label for="usuario">NOMBRE:</label>
+                <input id="usuario" type="text" name="usuario">
+            </div><br>
+
+            <div>
+                <label for="email">CORREO ELECTRONICO:</label>
+                <input id="email" type="text" name="email">
+               
+            </div><br>
+
+            
+            <div>
+                <label for="Apellido">APELLIDO PATERNO:</label>
+                <input id="Apellido" type="text" name="Apellido">
+               
+            </div><br>
+
+            <div>
+                <label for="Apellido">APELLIDO MATERNO:</label>
+                <input id="Apellido" type="text" name="Apellido">
+                
+            </div><br>
+        
+            <div>
+                <label for="ciudad">ESTADO:</label>
+                <select name="ciudad">
+                    <option value="TE">VERACRUZ</option>
+                    <option value="VA">PUEBLA</option>
+                    <option value="BA">MEXICO</option>
+                    <option value="M">OAXACA</option>
+                    <option value="" selected="selected">ESCOJE EL ESTADO DONDE VIVES</option>
+                </select>
+            </div><br>
+            
+            <div><consolas class="Titulo">DEPORTE POR ENTRAR:</consolas> <br>
+                <input type="checkbox" id="deportes" name="aficiones" value="deportes">
+                <label for="deportes">FUTBOL</label><br>
+                <input type="checkbox" id="coches" name="aficiones" value="coches">
+                <label for="coches">BEISBOL</label><br>
+                <input type="checkbox" id="musica" name="aficiones" value="musica">
+                <label for="musica">BASKETBOL</label><br>
+            </div><br>
+            <div>  <legend class="Titulo">SEXO:</legend>  <br>
+                <input type="radio" id="masculino" name="sexo" value="masculino">
+                <label for="masculino">HOMBRE</label><br>
+                <input type="radio" id="femenino" name="sexo" value="femenino">
+                <label for="femenino">MUJER</label><br>
+            </div><br>
+                <div>
+                    <label class="Titulo" for="ciudad">ESPECIALIDAD</label>
+                    <select name="ciudad">
+                        <option value="TE">CONSTRUCCION</option>
+                        <option value="VA">LOGISTICA</option>
+                        <option value="BA">PROGRAMACION</option>
+                        <option value="M">ELECTRONICA</option>
+                        <option value="M">CONTABILIDAD</option>
+                        <option value="M">ALIMENTOS</option>
+                        <option value="" selected="selected">ESCOGE TU ESPECIALIDAD </option>
+                    </select>
+                </div><br>
+                <div> <br>
+                    <input type="submit" name="submit" value="ENVIAR FORMULARIO">
+                    <input type="reset" name="reset" value="LIMPIAR EL FORMULARIO">
+                </div><br>
+
+          
+        </section>
+
+
+        </fieldset>
+    </form>
+</body>
+</html>
